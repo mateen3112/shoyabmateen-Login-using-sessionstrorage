@@ -1,0 +1,72 @@
+/* reg.css */
+
+/* Container for the registration form */
+.registration-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Style for the registration form box */
+  .form-container {
+    background-color: #DBA979;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%; /* Adjust width as needed */
+  }
+  
+  /* Input fields */
+  .form-container input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  /* Success message */
+  .success-message {
+    color: green;
+    margin-bottom: 10px;
+  }
+  
+  /* Submit button */
+  .form-container button {
+    background-color: #ECCA9C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for submit button */
+  .form-container button:hover {
+    background-color: #AFD198;
+  }
+  
+  /* OK button */
+  .ok-button {
+    background-color: #E8EFCF;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for OK button */
+  .ok-button:hover {
+    background-color: #AFD198;
+  }
+  
